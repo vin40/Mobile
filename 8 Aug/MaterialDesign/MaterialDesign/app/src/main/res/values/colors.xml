@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#90CAF9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDivider">#B6B6B6</color>
+
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+    <color name="bg_screen5">#ACD7DD</color>
+    <color name="bg_screen6">#F1C462</color>
+    <color name="bg_screen7">#F47B5B</color>
+    <color name="bg_screen8">#FFAAAA</color>
+    <color name="bg_screen9">#EF8D14</color>
+    <color name="bg_screen10">#00A4A4</color>
+    <color name="bg_screen11">#E40081</color>
+    <color name="bg_screen12">#B21EFE</color>
+    <color name="bg_screen13">#F42929</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!-- <color name="primary">#E43F3F</color>
+     <color name="primary_dark">#E12929</color>
+     <color name="primary_darker">#CC1D1D</color>
+     <color name="accent">#FFFFFF</color>-->
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+
+
+
+
+    <color name="image_border_start">#E3F2FD</color>
+    <color name="image_border_end">#64B5F6</color>
+    <color name="image_border_center">#90CAF9</color>
+    <color name="default_back_color">#26A69A</color>
+
+    <color name="slide2">#26A69A</color>
+
+
+    <color name="image_border_start1">#FCE4EC</color>
+    <color name="image_border_end1">#F06292</color>
+    <color name="image_border_center1">#F48FB1</color>
+    <color name="default_back_color1">#E40081</color>
+    <color name="slide3">#E40081</color>
+    <color name="image_border_start3">#FFEBEE</color>
+    <color name="image_border_end3">#E57373</color>
+    <color name="image_border_center3">#EF9A9A</color>
+    <color name="default_back_color3">#F42929</color>
+    <color name="slide4">#E40081</color>
+    <color name="default_back_color0">#EF8D14</color>
+
+
+    <color name="header">#ff5722</color>
+    <color name="text">#ffffff</color>
+    <color name="shadow">#505050</color>
+    <color name="background">#2c1f1a</color>
+    <color name="caption">#372721</color>
+    <color name="copyright">#503b32</color>
+    <color name="setting_devider">#503b32</color>
+    <color name="hint">#767676</color>
+    <color name="subtext">#bdbdbd</color>
+    <color name="image_background">#999999</color>
+    <color name="background_actionbar">#bb340e</color>
+    <color name="detail_background">#372721</color>
+    <color name="list_item_title">#fff</color>
+
+    <!-- background menu -->
+    <color name="list_background">#ffffff</color>
+    <!-- background menu dipencet -->
+    <color name="list_background_pressed">#FF9800</color>
+
+    <!-- jarak antar menu -->
+    <color name="list_divider">#C3C3C3</color>
+
+    <!-- app background -->
+    <color name="app_bg">#EEEEEE</color>
+
+    <!-- divider -->
+    <color name="divider">#257CC1</color>
+    <color name="btn_bg">#40A8D6</color>
+    <color name="btn_text">#FFFFFF</color>
+    <color name="form_bg">#FFFFFF</color>
+    <color name="form_border">#40A8D6</color>
+
+
+
+    <color name="apptheme_primary">#009688</color>
+    <color name="apptheme_primary_dark">#00796b</color>
+    <color name="apptheme_accent">@android:color/white</color>
+
+    <color name="gradient_start">#50000000</color>
+    <color name="gradient_light_start">#30000000</color>
+
+</resources>

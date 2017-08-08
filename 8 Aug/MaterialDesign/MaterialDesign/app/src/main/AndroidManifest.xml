@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shree.materialdesign8">
+
+    <uses-sdk
+        android:maxSdkVersion="25"
+        android:minSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="true" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/doctlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".FlashActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Register"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        />
+        <activity
+            android:name=".PatientInfo"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PatientInfo3"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main4Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Policy"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JobActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MedicineActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectTest"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectQualification"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImageAttachment"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImageAttachment1"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Forgot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Varification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FloatingActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vilas.searchviewjson.activity.Booklist"
+            android:label="@string/title_activity_booklist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vilas.searchviewjson.activity.BookDetailActivity"
+            android:label="/title_activity_book_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod.navigationdrawer.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".vinod1.alertregistration.RegisterDialog"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod1.alertregistration.RegisterDialog1"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod1.alertregistration.LoginAlert"
+            android:configChanges="orientation"
+            android:label="Login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".vinod2.labcategory.LabCategoty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod2.labcategory.Area"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod2.labcategory.Discount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod2.labcategory.Rating"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod2.labcategory.TimeLine"
+            android:label="Set TimeLine"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod3.selectTestDisease.SelectTestDisease"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod3.selectTestDisease.SelectDisease"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod3.selectTestDisease.SelectDTest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod3.selectTestDisease.SelectDTest1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod2.labcategory.Thankyou"
+            android:label="Thank You"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod4.setfavorite.SetFavorite"
+            android:label="Set Favorites"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Otp"
+            android:label="Send Sms"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".allocator.activity.ActivityCategoryList"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".allocator.activity.ActivityMenuList"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".allocator.activity.ActivityMenuDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".allocator.activity.ActivityCategoryLabAreaList"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".vinod6.autocompletetextviewjson.ShowDetailsActivity"
+            android:label="SubSpecialist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod2.labcategory.area.ShowAreaDetailsActivity"
+            android:label="List of lab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".allocator.activity.LandmarkWise"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".vinod6.autocompletetextviewjson.Specility"
+            android:label="Specialist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod6.autocompletetextviewjson.SpecilityAyush1"
+            android:label="Specialist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod6.autocompletetextviewjson.SpecilityHomopathic"
+            android:label="Specialist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod6.autocompletetextviewjson.SpecilitySiddha"
+            android:label="Specialist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod6.autocompletetextviewjson.SpecilityVetrinary"
+            android:label="Specialist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod2.labcategory.area.Areawise"
+            android:label="Areawise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vinod5.countrycodepicker.CountryCodePicker1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".allocator.activity.ReferPatient"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".allocator.activity.RefUploadPhoto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".allocator.activity.RefUploadPhoto1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".allocator.activity.DoctorRelated"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".allocator.activity.TodaysPatient"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".allocator.activity.NamePatient"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".allocator.activity.ActivityDetailNamePatient"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".allocator.activity.ActivityDetailLabArea"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".allocator.activity.LabCategoryRating"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".allocator.activity.ActivityDetailLabCategoryRating"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ConfirmationReport"
+            android:label="confirm Report" />
+        <activity
+            android:name=".vinod.confirmation.ConfirmationMassage"
+            android:label="Confirmation Message" />
+        <activity
+            android:name=".vinod.confirmation.ConfirmationMassagePhoto"
+            android:label="Confirmation Message" />
+        <activity
+            android:name=".vinod2.labcategory.rating.MainActivity"
+            android:label="Confirmation Message" />
+        <activity
+            android:name=".vinod.SqliteFav.MainActivity"
+            android:label="Insert "
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".vinod.SqliteFav.EditDataActivity"
+            android:label="Edit " />
+        <activity
+            android:name=".vinod.SqliteFav.ListViewActivity"
+            android:label="Show " />
+        <activity
+            android:name=".spinnerFav.FavEdit"
+            android:label="Edit " />
+        <activity
+            android:name=".spinnerFav.FavEdit1"
+            android:label="Edit1 " />
+        <activity
+            android:name=".spinnerFav.FavEdit2"
+            android:label="Edit2 " />
+        <activity
+            android:name=".spinnerFav.FavEdit3"
+            android:label="Edit3 " />
+        <activity
+            android:name=".spinnerFav.FavEdit4"
+            android:label="Edit4 " />
+        <activity
+            android:name=".spinnerFav.FavName"
+            android:label="FavName " />
+        <activity
+            android:name=".spinnerFav.FavName1"
+            android:label="FavName1 " />
+        <activity
+            android:name=".spinnerFav.FavName2"
+            android:label="FavName2 " />
+        <activity
+            android:name=".spinnerFav.FavName3"
+            android:label="FavName3 " />
+        <activity
+            android:name=".spinnerFav.FavName4"
+            android:label="FavName4 " />
+        <activity
+            android:name=".spinnerFav.FavNameT"
+            android:label="FavNameT " />
+        <activity
+            android:name=".spinnerFav.FavNameT1"
+            android:label="FavNameT1 " />
+        <activity
+            android:name=".spinnerFav.FavNameT2"
+            android:label="FavNameT2 " />
+        <activity
+            android:name=".spinnerFav.FavNameT3"
+            android:label="FavNameT3 " />
+        <activity
+            android:name=".spinnerFav.FavNameT4"
+            android:label="FavNameT4 " />
+        <activity
+            android:name=".vinod7.sqlFav.Fav2"
+            android:label="Inset " />
+        <activity
+            android:name=".vinod7.sqlFav.EditDataActivity"
+            android:label="Edit " />
+        <activity
+            android:name=".vinod7.sqlFav.ListViewActivity"
+            android:label="Show " />
+        <activity
+            android:name=".vinod8.sqliteFav.Fav3"
+            android:label="Inset " />
+        <activity
+            android:name=".vinod8.sqliteFav.EditDataActivity"
+            android:label="Edit " />
+        <activity
+            android:name=".vinod8.sqliteFav.ListViewActivity"
+            android:label="Show " />
+        <activity
+            android:name=".vinod9.sqliteFav.Fav4"
+            android:label="Inset " />
+        <activity
+            android:name=".vinod9.sqliteFav.EditDataActivity"
+            android:label="Edit " />
+        <activity
+            android:name=".vinod9.sqliteFav.ListViewActivity"
+            android:label="Show " />
+        <activity
+            android:name=".vinod10.SqliteFav.Fav5"
+            android:label="Inset " />
+        <activity
+            android:name=".vinod10.SqliteFav.EditDataActivity"
+            android:label="Edit " />
+        <activity
+            android:name=".vinod10.SqliteFav.ListViewActivity"
+            android:label="Show " />
+        <activity
+            android:name=".vinod.SqliteFav.ShowDb"
+            android:label="Show " />
+        <activity
+            android:name=".vinod7.sqlFav.ShowDb2"
+            android:label="Show " />
+        <activity
+            android:name=".vinod8.sqliteFav.ShowDb3"
+            android:label="Show " />
+        <activity
+            android:name=".vinod9.sqliteFav.ShowDb4"
+            android:label="Show " />
+        <activity
+            android:name=".vinod10.SqliteFav.ShowDb5"
+            android:label="Show " />
+        <activity android:name=".vinod11.editprofile.RegisterProfile" />
+        <activity android:name=".vinod11.editprofile.EditProfile" />
+        <activity android:name=".LoginWithDiff" />
+        <activity
+            android:name=".vinod1.alertregistration.UserInformation"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".vinod1.alertregistration.UserInformation1"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".vinod1.alertregistration.UserInformation1a"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".vinod1.alertregistration.UserInformation1s"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".vinod1.alertregistration.UserInformation1h"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".vinod1.alertregistration.UserInformation1v"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".vinod1.alertregistration.UserInformation1o"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".vinod1.alertregistration.UserInformation2"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity android:name=".vinod2.labcategory.Varify" />
+        <activity android:name=".login.MainActivity" />
+        <activity android:name=".vinod1.alertregistration.Address" />
+        <activity android:name=".vinod1.alertregistration.Address1" />
+        <activity android:name=".vinod6.autocompletetextviewjson.CityState" />
+    </application>
+
+</manifest>

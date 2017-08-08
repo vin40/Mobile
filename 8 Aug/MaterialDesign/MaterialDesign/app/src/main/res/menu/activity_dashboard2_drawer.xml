@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Specilist"
+            android:icon="@drawable/doctp"
+            android:title="Advice Specilist" />
+        <item
+            android:id="@+id/nav_fontchange"
+            android:icon="@drawable/setting"
+            android:title="Change Fonts" />
+        <item
+            android:id="@+id/nav_EditProfile"
+            android:icon="@drawable/editprofile"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/nav_TodaysPatient"
+            android:icon="@drawable/todaypatient"
+            android:title="Today's Patient" />
+        <item
+            android:id="@+id/nav_PrivousHistory"
+            android:icon="@drawable/history"
+            android:title="Previous History" />
+
+        <item
+            android:id="@+id/nav_LabCategory"
+            android:icon="@drawable/emergencyn"
+            android:title="Lab Category" />
+        <item
+            android:id="@+id/nav_setFavourate"
+            android:icon="@drawable/favorite"
+            android:title="Set Favourite" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

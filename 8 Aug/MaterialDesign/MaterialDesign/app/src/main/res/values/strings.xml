@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Doctor</string>
+    <string name="spinner_title">Select Category</string>
+    <string name="string_upload_image">Submit</string>
+    <string name="title">Fetch data from remote Mysql database and populate the spinner</string>
+
+    <string name="slide_1_title">Hello Patient!</string>
+    <string name="slide_1_desc">The easiest way to appoinment registration for patient!</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_2_title">Pathalogy</string>
+    <string name="slide_2_desc">All Body Related Test Provide!</string>
+
+    <string name="slide_3_title">Hello Doctor!</string>
+    <string name="slide_3_desc">Talk To Your Patient Over Video Call!</string>
+
+    <string name="slide_4_title">Heath Related Queries</string>
+    <string name="slide_4_desc">Answer Health Related Queries Be Franckly!</string>
+    <string name="slide_5_title"><![CDATA[Q & A]]></string>
+    <string name="slide_6_title">Ambulance</string>
+    <string name="slide_7_title">Emergency</string>
+
+
+    <string-array name="Speciality">
+        <item>Dentist</item>
+        <item>Cardiology</item>
+        <item>Anesthesiologists‎</item>
+        <item>Gastroenterologists‎</item>
+        <item>Parasitologists</item>
+        <item>Urologists</item>
+        <item>Leprologists‎</item>
+        <item>Serologists‎</item>
+        <item>Urologists</item>
+        <item>Urologists</item>
+        <item>Oncologists‎</item>
+    </string-array>
+
+    <string-array name="Speciality1">
+        <item>Gnology</item>
+        <item>Dentology</item>
+        <item>Anesthesiologists‎</item>
+        <item>Gastroenterologists‎</item>
+        <item>Parasitologists</item>
+        <item>Urologists</item>
+        <item>Leprologists‎</item>
+        <item>Serologists‎</item>
+        <item>Urologists</item>
+        <item>Urologists</item>
+        <item>Oncologists‎</item>
+    </string-array>
+    <string name="title_activity_booklist">Booklist</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="number_order">Number of order : </string>
+    <string name="order">Order</string>
+    <string-array name="main_menu_list">
+
+        <item>List Menu</item>
+        <item>Your Order</item>
+        <item>Confirmation</item>
+
+    </string-array>
+    <string name="order_alert">You have not ordered yet</string>
+    <string name="alert">Failed to connect internet!</string>
+    <string name="varify">Verify doctors </string>
+    <string name="everyday">New cases eveyday</string>
+    <string name="website1">www.doctor.com</string>
+
+    <string name="ComingSoon">Coming Soon..!!</string>
+    <string name="registration">We will be verify...!!</string>
+    <string name="userinform">Are You Sure To Save Data!!</string>
+    <string name="favadd">You have sucessfully added favourite in your list...!!</string>
+    <string name="favourite">You have successfully added favourite data in your list..!!</string>
+
+    <string name="firebase_applicatioin_id" translatable="false">1:98072223824:android:bd88fc76511f4452</string>
+    <string name="facebook_application_id" translatable="false">791651427668713</string>
+
+    <string name="i_amt">I am not an Undergraduate student</string>
+    <string name="finish">Finish</string>
+</resources>

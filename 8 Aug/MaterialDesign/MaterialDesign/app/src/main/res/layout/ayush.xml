@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ayush"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:elevation="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Search Speciality"
+                android:layout_marginLeft="5dp"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:id="@+id/userInputDialog"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/subspeciality"
+                android:hint="Search Sub-Speciality"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="User Name"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/userInputUname"
+                android:layout_marginTop="7dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Mci/Register No"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:id="@+id/mci"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="E-Mail"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:id="@+id/userInputemail"/>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_password"
+                android:layout_width="match_parent"
+                android:gravity="start"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:layout_marginLeft="5dp"
+                android:textAlignment="viewStart"
+                android:layout_height="wrap_content">
+
+                <com.maksim88.passwordedittext.PasswordEditText
+                    android:id="@+id/input_password"
+                    app:pet_disableIconAlpha="true"
+                    android:gravity="start"
+                    android:textAlignment="viewStart"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Password" />
+            </android.support.design.widget.TextInputLayout>
+
+            <com.maksim88.passwordedittext.PasswordEditText
+                android:id="@+id/input_password2"
+                app:pet_disableIconAlpha="true"
+                app:pet_hoverShowsPw="true"
+                android:gravity="start"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:layout_marginLeft="5dp"
+                fontPath="fonts/Roboto-Thin.ttf"
+                android:textAlignment="viewStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Confirm Password" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnnext1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp">
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
