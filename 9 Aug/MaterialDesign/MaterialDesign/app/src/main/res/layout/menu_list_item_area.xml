@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7e7e7"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_top_style_1"
+        android:padding="5dp"
+        android:weightSum="1">
+
+       <!-- <ImageView
+            android:id="@+id/imgThumb"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/loading"
+           />-->
+
+        <TextView
+            android:id="@+id/txtText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgThumb"
+            android:paddingBottom="10dp"
+            android:text=" Dr vinod"
+          android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/txtSubText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtText"
+            android:layout_toRightOf="@+id/imgThumb"
+            android:paddingLeft="10dp"
+            android:text="No 26, Akurdi Pradhikaran Road Akurdi,Pune - 41103."
+
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_below="@+id/txtSubText">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="15dp"
+                android:src="@drawable/landmarkm"
+                android:layout_marginTop="5dp"
+                android:text="Landmark: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/area"
+                android:text="Aundh"/>
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/map"
+                 android:layout_marginLeft="125dp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/exprience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSubText"
+            android:layout_toRightOf="@+id/imgThumb"
+            android:paddingLeft="10dp"
+            android:text=""
+
+            android:layout_marginLeft="70dp"
+
+            android:textSize="0dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   android:id="@+id/mobiledetails"
+    android:layout_marginLeft="15dp"
+    android:paddingLeft="10dp"
+    android:layout_marginTop="8dp"
+    android:layout_below="@id/exprience">
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mo: "/>-->
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8898253632"
+        android:id="@+id/mobileno"
+        />-->
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Landline: "/>-->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="022236589"
+        android:id="@+id/landline"/>-->
+
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/timelinedetails"
+
+           android:layout_below="@+id/mobiledetails">
+         <!--   <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TimeLine:"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                />-->
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urgent"
+               android:id="@+id/timeline1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                />-->
+           <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating:"
+                android:paddingLeft="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                />-->
+         <!--   <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rating1"
+                android:text="5.0"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                />-->
+
+        </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@id/timelinedetails">
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Discount: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/discount"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="10%"/>-->
+
+</LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
