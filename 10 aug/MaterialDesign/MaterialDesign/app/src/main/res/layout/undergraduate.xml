@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+            android:id="@+id/login_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Under Graduate"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:elevation="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Search Speciality"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/userInputDialog"/>
+
+            <MultiAutoCompleteTextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/subspeciality"
+                android:hint="Search Sub-Speciality"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="User Name"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/userInputUname"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="E-Mail"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/userInputemail"/>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_password"
+                android:layout_width="match_parent"
+                android:gravity="start"
+                android:layout_marginLeft="5dp"
+                android:textAlignment="viewStart"
+                android:layout_height="wrap_content">
+
+                <com.maksim88.passwordedittext.PasswordEditText
+                    android:id="@+id/input_password"
+                    app:pet_disableIconAlpha="true"
+                    android:gravity="start"
+                    android:textAlignment="viewStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Password" />
+            </android.support.design.widget.TextInputLayout>
+
+            <com.maksim88.passwordedittext.PasswordEditText
+                android:id="@+id/input_password2"
+                app:pet_disableIconAlpha="true"
+                app:pet_hoverShowsPw="true"
+                android:gravity="start"
+                android:layout_marginLeft="5dp"
+                fontPath="fonts/Roboto-Thin.ttf"
+                android:textAlignment="viewStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Confirm Password" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp">
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
