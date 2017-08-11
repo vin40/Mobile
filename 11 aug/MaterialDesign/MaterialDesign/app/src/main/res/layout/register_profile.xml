@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#5fb0c9"
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true">
+
+            <TextView
+                android:id="@+id/login_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="22dp"
+                android:gravity="center_horizontal"
+                android:text="Register Profile"
+                android:textColor="#fff"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_title"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="20dp"
+                        android:hint="Dr.First Name"
+                        android:textAlignment="center"
+                        android:background="@drawable/rectangle"
+                        android:id="@+id/txtname"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="20dp"
+                        android:hint="Dr.Last Name"
+                        android:textAlignment="center"
+                        android:background="@drawable/rectangle"
+                        android:id="@+id/txtlname"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="20dp"
+                        android:hint="City"
+                        android:textAlignment="center"
+                        android:background="@drawable/rectangle"
+                        android:id="@+id/txtcity"
+                        android:layout_marginTop="10dp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="20dp"
+                        android:hint="Education"
+                        android:textAlignment="center"
+                        android:background="@drawable/rectangle"
+                        android:id="@+id/txteducation"
+                        android:layout_marginTop="10dp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="20dp"
+                        android:hint="MCI/State Registration No."
+                        android:textAlignment="center"
+                        android:background="@drawable/rectangle"
+                        android:id="@+id/txteregnum"
+                        android:layout_marginTop="10dp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="20dp"
+                        android:hint="Speciality"
+                        android:textAlignment="center"
+                        android:background="@drawable/rectangle"
+                        android:id="@+id/txtspeciality"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="20dp"
+                        android:hint="Mobile Number"
+                        android:textAlignment="center"
+                        android:background="@drawable/rectangle"
+                        android:id="@+id/txtmobile"
+                        android:layout_marginTop="10dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Edit Profile"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="#ffffff"
+                        android:background="#EF8D14"
+                        android:id="@+id/txtsubmit"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="20dp"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add More Address"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="#ffffff"
+                        android:background="#EF8D14"
+                        android:id="@+id/txtaddress"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="20dp"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

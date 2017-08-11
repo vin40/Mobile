@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "98072223824",
+    "firebase_url": "https://doctor-ff1d8.firebaseio.com",
+    "project_id": "doctor-ff1d8",
+    "storage_bucket": "doctor-ff1d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98072223824:android:bd88fc76511f4452",
+        "android_client_info": {
+          "package_name": "com.example.shree.materialdesign8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98072223824-l2578mj9iqr4ghopq2t3rp09sitt6h4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhU5Snv5mB5SfINANB8sOyWcGkZSa_DEE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
